@@ -2,8 +2,9 @@ public class Patient {
 	private String name;
 	private String kasse;
 	
-	public Patient(){
-		
+	public Patient(String name, String kasse){
+		this.name = name;
+		this.kasse = kasse;
 	}
 	
 	public void set_name(String newName) {
