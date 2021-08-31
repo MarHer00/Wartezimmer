@@ -1,4 +1,4 @@
-public class Wartezimmer<Warteplatz>{// in <> noch das richtige schreiben
+public class Wartezimmer<Patient>{// in <> noch das richtige schreiben
 	
 	Warteplatz first;
 	Warteplatz last;
