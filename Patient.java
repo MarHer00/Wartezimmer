@@ -2,11 +2,6 @@ public class Patient {
 	private String name; // Name der Person
 	private String kasse; // Kürzel Krankenkasse der Person
 	
-	public Patient(String name, String kasse){
-		this.name = name;
-		this.kasse = kasse;
-	}
-	
 	// ab hier setter
 	public void set_name(String newName) {
 		name = newName;
