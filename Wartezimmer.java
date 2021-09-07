@@ -5,7 +5,10 @@ public class Wartezimmer{
 	Warteplatz aktueller;
 	int wartezimmer_length = 0;
 	
-	
+	public Wartezimmer(){
+		erster = null;
+		letzter = null;
+	}
 	
 	public void einfuegen_anErsterStelle(Patient neuerPatient){
 		wartezimmer_length++;
