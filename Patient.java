@@ -1,6 +1,6 @@
 public class Patient {
 	private String name; // Name der Person
-	private String kasse; // Kürzel Krankenkasse der Person
+	private String kasse; // Kuerzel Krankenkasse der Person
 	
 	// ab hier setter
 	public void set_name(String newName) {
