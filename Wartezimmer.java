@@ -1,4 +1,4 @@
-public class Wartezimmer<Patient>{// in <> ggf. was anderes schreiben, da ich mir über die Richtigkeit von Patient hier nicht sicher bin
+public class Wartezimmer{
 	
 	Warteplatz erster;
 	Warteplatz letzter;
