@@ -95,11 +95,7 @@ public class WartezimmerGUI {
         frmWartezimmer.getContentPane().add(textArea);
         
     }
-    
-    
-    public void newPatient() {
-        Wartezimmer.newWarteplatz();
-    }
+
     
     public void uebergebeNameUndKasse() {
         
