@@ -19,8 +19,6 @@ public class Wartezimmer{
 	}
 	
 	public void entfernen(){
-		wartezimmer_length--;
+		
 	}
-	
-	
 }
