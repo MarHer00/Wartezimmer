@@ -105,7 +105,10 @@ public class WartezimmerGUI {
         
         String name = gibAnzeigeAlsText(tfName);
         String kasse = gibAnzeigeAlsText(tfKasse);
-        warteZimmer.addList(name,kasse);
+        Patient pat = new Patient();
+        pat.set_kasse(kasse);
+        pat.set_name(name);
+        Wartezimmer.einfuegen_anErsterStelle(pat);
         
     }
     
